@@ -1,4 +1,4 @@
-# crawer
+# crawler
 
 
 use selenium and chrome webdriver and 
