@@ -122,6 +122,7 @@ if __name__ == "__main__":
     options.add_argument('--disable-gpu') #谷歌文档提到需要加上这个属性来规避bug
     options.add_argument('blink-settings=imagesEnabled=false') #不加载图片, 提升速度
     #options.add_argument('--headless') 
+    options.add_argument("--no-sandbox")
     options.add_argument('Referer=https://www.tvmao.com')
     driver = webdriver.Chrome(chrome_options=options)
     driver.set_window_size(1366, 768)
